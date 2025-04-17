@@ -1,0 +1,294 @@
+*{
+        margin: 0px;
+        font-family: "Roboto", sans-serif;
+}
+.bild1{
+        height: auto;
+        width:100%;
+     /*   padding-right: 0px;
+        margin-right: 0px;     */
+}
+.Qasim{
+        text-align: center;
+        width: 70%;
+        height: 30px;
+        background-color: whitesmoke;
+        opacity: 0.5;
+        margin-left: 40px;;
+        margin-right: 40px;
+        margin-top:  -45px;
+        padding-top: 8px;
+        border-radius: 30px;
+}
+/* -------------------------------*/
+.P1, #Q1{
+        color: darkcyan; 
+        margin: 10px;
+}
+.P4{
+        padding-left: 7px;
+        margin: 10px;
+        color: #666666;
+}
+.P6{
+        padding-left: 20px;
+        margin: 10px;
+        color: #666666;
+}
+/* -------------------------------*/
+#Q5{
+        color: darkcyan; 
+        padding-left: 30px;
+        padding-right: 10px;
+}
+.P5{
+        color: darkcyan; 
+        margin: 20px;
+        margin-left: 10px;
+}
+.Schrifft{
+        color: #666666;
+        padding-left: 20px;
+        margin: 20px;
+}
+.Schrifft2{
+        color: #000000;
+        padding-left: 20px;
+        margin: 20px;
+}
+.GrünP{
+        margin: 20px;
+        color: #666666;
+}
+/* -------------------------------*/
+
+
+.P2{
+        color: white;
+        margin-top: 15px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        text-decoration: none;
+}
+/* -------------------------------*/
+
+hr{
+         margin: 10px 30px 10px 25px;
+         opacity: 0.2;
+}
+.Progress1, .Progress2{
+         background-color:#f1f1f1;
+         border-radius: 30px;
+         width: 80%;
+         margin-left: 30px;
+         margin-right: 0px;
+         text-align: center ;
+         margin-bottom: 30px;
+} 
+.Progress1{
+         height: 17px;
+}
+.Css1,.Css2,.Css3,.Css4{
+         background-color: darkcyan;
+         border-radius: 20px;
+         color: white;
+         height: 17px;
+}    
+.Css1{
+        margin-left: 0px;
+        margin-right: 20px;
+}
+.Css2{   
+        width: 90%;
+        margin-left: 0px;
+        margin-right: 20px;
+}
+.Css3{
+        width: 60%;
+        margin-left: 0px;
+        margin-right: 20px;
+}
+.Progress2{
+        height: 25px; 
+}
+.Css4,.Css5, .Css6, .Css7{
+        background-color: darkcyan;
+        border-radius: 20px;
+        color: white;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}    
+.Css4{
+        width: 100%; 
+    
+}
+.Css5{
+        width: 65%;
+}
+.Css6{
+        width:85% ;
+}
+.Css7{
+        width: 30%;
+}
+.Current{
+        width: 40px;
+        height: 10px;
+        background-color: darkcyan;
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
+        margin-left: 5px;  
+}
+.W3S{ 
+        padding-top: 12px;
+}
+.a{
+        color: white;
+        text-decoration: none;
+}
+a:hover{
+         opacity: 0.2;
+}
+ .Vater{
+         background-color:#e6e8e5;
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-template-rows: repeat(8, 1fr);
+         min-height: 100vh;
+         column-gap: 15px;
+         grid-row-gap: 25px; 
+}
+.Kind1{
+         grid-column: 1/2;
+         grid-row:  1/8;
+         background-color:  white;
+         margin-left:20px;
+         margin-top: 10px;
+         margin-bottom: 40px; 
+   /*ich habe hier kein padding-right abgegeben wegen des Bildes wird nach right abgeschoben*/
+}
+.Kind2{
+        grid-column: 2/4;
+        grid-row:  1/5;
+        background-color: white;
+        margin-top: 10px;
+        margin-right: 20px;
+}
+.Kind3{
+        grid-column: 2/4;
+        grid-row:  5/8;
+        background-color: white;
+        margin-right: 20px;
+        margin-top: 30px;
+}
+.Kind4{
+        grid-column: 1/4;
+        grid-row:  8/9;
+        text-align: center;
+        background-color: darkcyan;
+        padding-top: 15px;
+}
+/* --------------------------------------*/
+
+
+@media only screen and (max-width:575px) { 
+     .Vater{
+        background-color:#e6e8e5;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(20, 1fr);
+        grid-row-gap: 12px; 
+}
+.Kind1{
+        grid-column: 1/2;
+        grid-row:  1/11;
+        background-color:  white;
+        margin-left:15px;    
+        margin-right: 15px; 
+        margin-bottom: 0px; 
+
+   /*ich habe hier kein padding-right abgegeben wegen des Bildes wird nach right abgeschoben*/
+}
+.Kind2{
+    
+        grid-column: 1/2;
+        grid-row:  11/16;
+        background-color: white;
+        margin-right: 15px;
+        margin-left: 15px; 
+        margin-top: 0px;
+}
+.Kind3{
+        grid-column: 1/2;
+        grid-row:  16/20;
+        background-color: white;
+        margin-right: 15px;
+        margin-left: 15px;
+    
+} 
+.Kind4{
+        grid-column: 1/2;
+        grid-row:  20/21;
+        text-align: center;
+        background-color: darkcyan;
+        padding-top: 0px;
+}
+
+}
+@media only screen and (max-width:300px){
+        .Vater{
+                background-color:#e6e8e5;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(21, 1fr);
+                grid-row-gap: 12px; 
+        }
+        
+        .Kind1{
+                grid-column: 1/2;
+                grid-row:  1/10;
+                background-color:  white;
+                margin-left:15px;    
+                margin-right: 15px; 
+                margin-bottom: 0px; 
+        
+           /*ich habe hier kein padding-right abgegeben wegen des Bildes wird nach right abgeschoben*/
+        }
+        .Kind2{
+            
+                grid-column: 1/2;
+                grid-row:  10/16;
+                background-color: white;
+                margin-right: 15px;
+                margin-left: 15px; 
+                margin-top: 0px;
+        }
+        .Kind3{
+                grid-column: 1/2;
+                grid-row:  16/21;
+                background-color: white;
+                margin-right: 15px;
+                margin-left: 15px;
+            
+        } 
+        .Kind4{
+                grid-column: 1/2;
+                grid-row:  21/22;
+                text-align: center;
+                background-color: darkcyan;
+                padding-top: 0px;
+        }
+        .Schrifft{
+                font-size: 15px;
+        }
+        .Current{
+                padding: 1px 2px 1px 2px;
+                border-radius: 3px;
+                
+        }
+        .GrünP{
+                font-size: 20px;
+        }
+        }

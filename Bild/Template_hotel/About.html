@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hotel Seite</title> 
+    <link rel="stylesheet" href="Aufgabe.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src=""></script>
+</head>
+<body >
+  
+    <div class="Vater">
+    <div class="nav" >   
+  <a href="#" class="Logo"><i class="fa fa-bed w3-margin-right" id ="bett"></i>Logo</a>
+  <a href="#rooms" class="Rooms">Zimmern</a>
+  <a href="#about" class="About">Über uns</a>
+  <a href="#contact" class="contact">kontakt</a> 
+  <a href="#contact" class="Book_Now"> Jetzt Buchen</a>
+    </div>
+   <img  class="iM" src="./Bild/Hotel.jpg" alt="The Hotel" >
+        <!---------------------------------------------------------------->
+        
+         <div class="kindA">
+    <div >
+      <h2 class="Hotelname"><i class="fa fa-bed w3-margin-right" id ="bett"></i>Hotel Name</h2>
+    </div>
+             
+    <div class="Form" >
+      <form action="/action_page.php" target="_blank">
+        <div>
+          <div class="check_in">
+            <label><i class="fa fa-calendar-o"></i> Einchecken</label>
+           <br> <input class="check1" type="text" placeholder="DD MM YYYY" name="CheckIn" required>
+          </div>
+          <div class="check_out">
+            <label ><i class="fa fa-calendar-o" id="check_out"></i> Auschecken</label>
+           <br> <input class="check2" type="text" placeholder="DD MM YYYY" name="CheckOut" required>
+          </div>
+        </div>
+        <div >
+          <div class="Adults">
+            <label><i class="fa fa-male"></i> Erwachsen</label>
+          <br>  <input class="check3" type="number" value="1" name="Adults" min="1" max="6">
+          </div>
+          <div id ="kids">
+          <br>  <label><i class="fa fa-child"></i>Kinde</label>
+        <br>  <input class="check4" type="number" value="0" name="Kids" min="0" max="6">
+          </div>
+        </div>
+        <div > <br>
+        <button class="search" type="submit"><i class="fa fa-search w3-margin-right"></i> Suche Verfügbar</button>
+              </div> 
+      </form> 
+    </div>
+  </div>
+        
+<!----------------------------------------------------------------------------->
+        
+
+  <div  id="rooms">
+    <h3 class="Room2">Zimmern</h3>
+    <p class="Room1">Fühlen Sie sich wie zu Hause ist unser Motto. Wir bieten die besten Betten der Branche. Schlafen Sie gut und ruhen Sie sich gut aus.</p>
+  </div>
+  
+  <div >
+    <div class=" left">
+      <label class="label"><i class="fa fa-calendar-o"></i> Einckecken</label>
+     <br> <input class="check21" type="text" placeholder="DD MM YYYY">
+    </div>
+    <div class="left2">
+      <label class="label"><i class="fa fa-calendar-o"></i> Auschecken</label>
+    <br>  <input class="check21" type="text" placeholder="DD MM YYYY">
+    </div>
+    <div class="left3">
+      <label><i class="fa fa-male"></i> Erwachsen</label>
+    <br>  <input class="kind" type="number" placeholder="1">
+    </div>
+    <div class ="left4">
+      <label><i class="fa fa-child"></i> Kinde</label>
+   <br>   <input class="kind" type="number" placeholder="0">
+    </div>
+    <div class="left5">
+      <label ><i class="fa fa-search"></i> Suchen</label>
+    <br>  <button class="search2">Suchen</button>
+    </div>
+ 
+       <br>
+       <br>
+       <br>
+       <br>
+      
+          
+           
+  <div class="Hotel" >
+      
+    <div class="Singel">
+      <img class="BildS" src="./Bild/room_single.jpg" alt="Norway" >
+      <div class="Beschreibung" >
+        <h3>Einzelzimmer</h3>
+        <h2 >Für 99.99€</h2>
+        <p>Einzelbett</p>
+        <p>15m<sup>2</sup></p>
+        <p ><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i></p>
+        <button class="Wahlen">Zimmer Wählen</button>
+      </div>
+    </div>
+      
+      
+      
+      
+    <div class="Double">
+      <img class="BildS" src="./Bild/room_double.jpg" alt="Norway">
+      <div class="Beschreibung">
+        <h3>Doppelzimmer</h3>
+        <h2 >Für 149,99€</h2>
+        <p>Queen-size bed</p>
+        <p>25m<sup>2</sup></p>
+        <p><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+        <button class="Wahlen">Zimmer Wählen</button>
+      </div>
+    </div>
+      
+      
+      
+    <div class="Deluxe">
+      <img class="BildS" src="./Bild/room_deluxe.jpg" alt="Norway">
+      <div class="Beschreibung">
+        <h3>Deluxe Room</h3>
+        <h2 >Für 199,99€</h2>
+        <p>Kingsize-Bett</p>
+        <p>40m<sup>2</sup></p>
+        <p ><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i> <i class="fa fa-glass"></i> <i class="fa fa-cutlery"></i></p>
+        <button class="Wahlen">Zimmer Wählen</button>
+      </div>
+    </div>
+      
+      
+  </div> 
+        
+           
+         
+   
+    <div class="AboutV"  id ="about"> <div class="About1"> <h3>Über</h3>
+      <h6>Unser Hotel ist einzigartig. Es ist wirklich erstaunlich. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bis zu einem gewissen Grad ist es uns gelungen, unsere Arbeit zu erledigen, bevor wir sie von einer Kommode aus übernehmen. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fgiat nulla pariatur. Es sei denn, er ist nicht gewillt, weil er nicht willens ist, und er hat sich aus Verschulden von Amts wegen aufgegeben, um die Elite zu konsekutieren, ohne dass es zu einem vorübergehenden Vorfall gekommen ist, und er hat viel Arbeit geleistet. Nur bis zum Äußersten.</h6>
+    <p>Wir akzeptieren: <i class="fa fa-credit-card w3-large"></i> <i class="fa fa-cc-mastercard w3-large"></i> <i class="fa fa-cc-amex w3-large"></i> <i class="fa fa-cc-cc-visa w3-large"></i><i class="fa fa-cc-paypal w3-large"></i></p> </div>
+  
+  <!----------------------------------------------->
+    <div class="iMg">  <img src="./Bild/map.jpg" > </div>
+    
+</div>
+  
+ <div class="uberfooter" >
+  <span> <i id="M2" class="fa fa-map-marker w3-text-red"></i> 00000,Deutschland </span>
+  <span>  <i id="M2" class="fa fa-phone w3-text-red"></i> Telefon: +00 151515 </span>
+  <span>  <i id="M2" class="fa fa-envelope w3-text-red"></i> E-mail: mail@mail.com </span>
+  </div>
+
+  <div class="wahrnung">
+    <h6><i id="M3" class="fa fa-info w3-deep-orange w3-padding w3-margin-right"></i> On demand, we can offer playstation, babycall, children care, dog equipment, etc.</h6>
+  </div>
+
+           
+           
+           
+       <div class="Our">
+    <h3>Unser Hotel</h3>
+    <h6>Unser Hotel finden Sie weltweit: </h6>
+  </div>
+           
+           
+  <div class="vbild">
+           
+  <div class=b1>
+     <img src="./Bild/cinqueterre.jpg" alt="Cinque Terre"  >
+    <p class="N">Cinque Terre</p> 
+  </div>    
+
+           <div class="b2">
+            <img src="./Bild/newyork2.jpg" alt="New York" >
+            <p class="N">New York</p> 
+          </div>
+      
+        <div class="b3">
+            <img src="./Bild/sanfran.jpg" alt="San Francisco" >
+          <p class="N">San Francisco</p> 
+          </div>
+       
+     
+          <div class="b4">
+            <img src="./Bild/pisa.jpg" alt="Pisa" >
+           <p class="N">Pisa</p> 
+          </div>
+        
+    
+          <div class="b5">
+            <img src="./Bild/paris.jpg" alt="Paris" >
+          <p class="N">Paris</p> 
+          </div>
+           
+        </div>
+      
+ 
+            <!-------------------------------------------------------------------------->    
+    <div class="kontakt">
+    <h2>Sichern Sie sich die besten Angebote als Erster!</h2>
+    <p>Abonnieren Sie unseren Newsletter.</p>
+    <label class="">E-mail</label>
+  <br>  <input class="input" type="text" placeholder="Ihre E-Mail-Adresse">
+   <br> <button type="button" class="button">abonnieren</button>
+  </div>
+
+  <div class="kontakt2" id="contact">
+    <h2>Kontakt</h2>
+    <p>Wenn Sie Fragen haben, zögern Sie nicht, sie zu stellen.</p>
+    <i id="M5" class="fa fa-map-marker w3-text-red" style="width:30px "></i> Mannheim,Deutschland<br>
+    <i id="M5" class="fa fa-phone w3-text-red" style="width:30px"></i> Telefon: +00 151515<br>
+    <i id="M5" class="fa fa-envelope w3-text-red" style="width:30px"> </i> E-mail: mail@mail.com<br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="input" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="input" type="text" placeholder="E-mail" required name="Email"></p>
+      <p><input class="input" type="text" placeholder="Nachricht" required name="Message"></p>
+      <p><button class="button2" type="submit">Schicken Sie Nachricht</button></p>
+    </form>
+  </div>
+
+<!-- End page content -->
+</div>
+    <!-- footer -->
+    
+    <div class="Kind5" > 
+        <footer class="Footer">
+  <h5>Finden Sie uns auf</h5>
+  <div>
+    <i id="i" class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i id="i" class="fa fa-instagram w3-hover-opacity"></i>
+    <i id="i" class="fa fa-snapchat w3-hover-opacity"></i>
+    <i id="i" class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i id="i" class="fa fa-twitter w3-hover-opacity"></i>
+    <i id="i"  class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Unterstützt vom <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3">w3.css</a></p>
+</footer>
+    </div>  
+        </div>
+    
+    
+     
+    
+    </body>
+</html>
